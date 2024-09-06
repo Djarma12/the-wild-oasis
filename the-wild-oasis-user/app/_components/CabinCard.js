@@ -11,6 +11,7 @@ function CabinCard({ cabin }) {
         <Image
           src={image}
           fill
+          sizes="(max-width: 768px) 33vw, (max-width: 1200px) 20vw, 20vw"
           alt={`Cabin ${name}`}
           className="object-cover border-r border-primary-800"
         />
